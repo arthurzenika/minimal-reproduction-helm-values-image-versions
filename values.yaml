@@ -4,4 +4,4 @@ alertmanager:
     - name: oauth-proxy
       image: quay.io/oauth2-proxy/oauth2-proxy:v7.2.1
     - name: opentelemetry-collector
-      image: otel/opentelemetry-collector-contrib:0.58.0
+      image: otel/opentelemetry-collector-contrib:0.59.0
