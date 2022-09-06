@@ -2,6 +2,6 @@ alertmanager:
   alertmanagerSpec:
     containers:
     - name: oauth-proxy
-      image: quay.io/oauth2-proxy/oauth2-proxy:v7.2.1
+      image: quay.io/oauth2-proxy/oauth2-proxy:v7.3.0
     - name: opentelemetry-collector
       image: otel/opentelemetry-collector-contrib:0.58.0
